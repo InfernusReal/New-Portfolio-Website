@@ -253,7 +253,8 @@ const CTA = () => {
             {[
               {
                 label: 'Email',
-                value: 'hello@portfolio.dev',
+                value: 'infernusrm@gmail.com',
+                href: 'mailto:infernusrm@gmail.com',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                     <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" strokeWidth="1.5"/>
@@ -262,25 +263,22 @@ const CTA = () => {
                 )
               },
               {
-                label: 'LinkedIn',
-                value: '/in/portfolio',
+                label: 'GitHub',
+                value: '@InfernusReal',
+                href: 'https://github.com/InfernusReal',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                    <path d="M16 8A6 6 0 0 1 22 14V21H18V14A2 2 0 0 0 14 14V21H10V9H14V11A4 4 0 0 1 16 8Z" stroke="currentColor" strokeWidth="1.5"/>
-                    <rect x="2" y="9" width="4" height="12" stroke="currentColor" strokeWidth="1.5"/>
-                    <circle cx="4" cy="4" r="2" stroke="currentColor" strokeWidth="1.5"/>
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" stroke="currentColor" strokeWidth="1.5"/>
                   </svg>
                 )
               },
               {
-                label: 'Schedule',
-                value: 'Cal.com/portfolio',
+                label: 'WhatsApp',
+                value: 'Chat with me',
+                href: 'https://wa.me/923214785225?text=Hi%20there!%20I%27d%20like%20to%20discuss%20a%20project%20with%20you.',
                 icon: (
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" strokeWidth="1.5"/>
-                    <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" strokeWidth="1.5"/>
-                    <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" strokeWidth="1.5"/>
-                    <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" strokeWidth="1.5"/>
+                    <path d="M21 11.5C21.0034 12.8199 20.6951 14.1219 20.1 15.3C19.3944 16.7118 18.3098 17.8992 16.9674 18.7293C15.6251 19.5594 14.0782 19.9994 12.5 20C11.1801 20.0035 9.87812 19.6951 8.7 19.1L3 21L4.9 15.3C4.30493 14.1219 3.99656 12.8199 4 11.5C4.00061 9.92179 4.44061 8.37488 5.27072 7.03258C6.10083 5.69028 7.28825 4.6056 8.7 3.90003C9.87812 3.30496 11.1801 2.99659 12.5 3.00003H13C15.0843 3.11502 17.053 3.99479 18.5291 5.47089C20.0052 6.94699 20.885 8.91568 21 11V11.5Z" stroke="currentColor" strokeWidth="1.5"/>
                   </svg>
                 )
               }
@@ -289,6 +287,7 @@ const CTA = () => {
                 key={index}
                 whileHover={{ y: -2 }}
                 className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-xl p-6 hover:border-gray-700 transition-all duration-200 cursor-pointer"
+                onClick={() => window.open(contact.href, '_blank')}
               >
                 <div className="text-gray-400 mb-3 flex justify-center">
                   {contact.icon}
