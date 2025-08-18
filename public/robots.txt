@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://infernusreal.com/sitemap.xml
+
+# InfernusReal Portfolio - Open for crawling
+Crawl-delay: 1
+Disallow: /reset-password
+
+# Portfolio pages optimized for search engines
+Allow: /projects
+Allow: /contact
+
+# Social media and external links
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
