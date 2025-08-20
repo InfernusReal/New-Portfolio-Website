@@ -106,7 +106,7 @@ const BeddingComPkHero = () => {
 					className="flex flex-col sm:flex-row gap-6 justify-center"
 				>
 					<motion.a
-						href="https://bedding-com-pk.vercel.app/"
+						href="https://bedding.com.pk/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="px-8 py-4 bg-gradient-to-r from-emerald-500 to-blue-500 text-white font-inter font-semibold text-lg rounded-2xl hover:shadow-2xl hover:shadow-emerald-500/25 transition-all duration-300"
@@ -117,14 +117,14 @@ const BeddingComPkHero = () => {
 					</motion.a>
 					
 					<motion.a
-						href="https://github.com/yourusername/bedding-com-pk"
+						href="https://github.com/infernusreal"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="px-8 py-4 border-2 border-gray-600 text-gray-300 font-inter font-semibold text-lg rounded-2xl hover:border-emerald-500 hover:text-white transition-all duration-300"
 						whileHover={{ scale: 1.05, y: -2 }}
 						whileTap={{ scale: 0.95 }}
 					>
-						💻 View Source Code
+						💻 View GitHub Profile
 					</motion.a>
 				</motion.div>
 

@@ -212,7 +212,7 @@ const TechStack = () => {
 						</motion.a>
 						
 						<motion.a
-							href="https://github.com/yourusername/bedding-com-pk"
+							href="https://github.com/infernusreal"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="px-8 py-4 border-2 border-emerald-500 text-emerald-400 font-inter font-semibold text-lg rounded-2xl hover:bg-emerald-500/10 transition-all duration-300"
