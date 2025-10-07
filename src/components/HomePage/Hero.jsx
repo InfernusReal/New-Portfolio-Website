@@ -204,6 +204,34 @@ const Hero = () => {
 						Full-stack developer crafting exceptional digital experiences with modern technologies and design-first thinking.
 					</motion.p>
 
+					{/* NASA Space Apps Badge */}
+					<motion.div
+						initial={{ opacity: 0, scale: 0.8 }}
+						animate={{ opacity: 1, scale: 1 }}
+						transition={{ delay: 0.6, duration: 0.8 }}
+						className="pt-6"
+					>
+						<Link 
+							to="/projects/council-of-lords"
+							className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-sm border border-blue-400/30 rounded-full hover:border-blue-400/50 transition-all duration-300 group"
+						>
+							<div className="w-8 h-8 mr-3">
+								<svg viewBox="0 0 24 24" className="w-full h-full text-blue-400" fill="currentColor">
+									<path d="M12 2L13.09 8.26L20 9L13.09 9.74L12 16L10.91 9.74L4 9L10.91 8.26L12 2Z"/>
+								</svg>
+							</div>
+							<div className="text-left">
+								<div className="text-blue-300 font-semibold text-sm">NASA SPACE APPS CONTENDER</div>
+								<div className="text-blue-200/80 text-xs">Revolutionary AI exoplanet detection system</div>
+							</div>
+							<div className="w-8 h-8 ml-3">
+								<svg viewBox="0 0 24 24" className="w-full h-full text-blue-400 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+								</svg>
+							</div>
+						</Link>
+					</motion.div>
+
 					{/* CTA */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}

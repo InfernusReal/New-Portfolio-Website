@@ -5,8 +5,30 @@ import ProjectCard from './ProjectCard';
 import ProjectsHero from './ProjectsHero';
 
 const Projects = () => {
-	// Project data including ProdigiousHub
+	// Project data including NASA Space Apps
 	const projects = [
+		{
+			id: 'council-of-lords',
+			title: 'Council of Lords',
+			description: 'NASA Space Apps Challenge 2025: Revolutionary AI ensemble system for professional-grade exoplanet detection using real telescope data.',
+			technologies: ['TensorFlow', 'Python', 'AstroPy', 'NumPy', 'SciPy', 'Machine Learning'],
+			image: '/nasa/Screenshot 2025-10-05 222808.png',
+			category: 'AI & Space Technology',
+			status: 'NASA Challenge',
+			featured: true,
+			link: '/projects/council-of-lords',
+			year: '2025',
+			githubUrl: 'https://github.com/InfernusReal/Council-Of-Lords',
+			liveUrl: 'https://www.spaceappschallenge.org/2025/find-a-team/perseverance5/',
+			highlights: [
+				'NASA Space Apps Challenge 2025',
+				'87.5% accuracy on brutal test scenarios',
+				'5 specialized AI neural networks',
+				'Perfect false positive rejection',
+				'Real Kepler & TESS data processing',
+				'Professional astronomical standards'
+			]
+		},
 		{
 			id: 'prodigious-hub',
 			title: 'ProdigiousHub',
