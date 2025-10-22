@@ -123,28 +123,22 @@ const Integration = () => {
 								className="group cursor-pointer"
 							>
 								<Link to="/projects/council-of-lords" className="block">
-									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300">
+									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300 h-[400px] flex flex-col">
 									{/* Project Image */}
 									<div className="relative h-48 overflow-hidden bg-gray-800">
 										<img 
 											src="/nasa/Screenshot 2025-10-05 222808.png" 
 											alt="NASA Council of Lords AI System"
-											className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+											className="w-full h-full object-cover object-center group-hover:scale-110 transition-transform duration-700"
 										/>
 										<div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent"></div>
-										{/* NASA Badge */}
-										<div className="absolute top-4 right-4 bg-blue-600/90 backdrop-blur text-white px-3 py-1 rounded-full text-xs font-semibold">
-											NASA Space Apps
-										</div>
 									</div>
 									
-									<div className="p-8">
+									<div className="p-8 flex-1 flex flex-col justify-between">
 										{/* Icon */}
 										<div className="flex items-center justify-center w-16 h-16 bg-blue-500/10 rounded-xl mb-6 group-hover:bg-blue-500/20 transition-colors">
 											<svg width="32" height="32" viewBox="0 0 24 24" fill="none" className="text-blue-400">
-												<path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-												<path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-												<path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+												<path d="M12 2L13.09 8.26L22 9L13.09 15.74L12 22L10.91 15.74L2 9L10.91 8.26L12 2Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 											</svg>
 										</div>
 										
@@ -152,7 +146,7 @@ const Integration = () => {
 											Council of Lords
 										</h3>
 										<p className="text-gray-400 group-hover:text-gray-300 transition-colors">
-											Revolutionary AI ensemble system for NASA exoplanet detection with 100% accuracy
+											Next-gen AI powerhouse conquering NASA's toughest space challenges
 										</p>
 										
 										{/* Animated bar */}
@@ -177,7 +171,7 @@ const Integration = () => {
 								className="group cursor-pointer"
 							>
 								<Link to="/projects/prodigious-hub" className="block">
-									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300">
+									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300 h-[400px] flex flex-col">
 									{/* Project Image */}
 									<div className="relative h-48 overflow-hidden bg-gray-800">
 										<img 
@@ -188,7 +182,7 @@ const Integration = () => {
 										<div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent"></div>
 									</div>
 									
-									<div className="p-8">
+									<div className="p-8 flex-1 flex flex-col justify-between">
 										{/* Icon */}
 										<div className="flex items-center justify-center w-16 h-16 bg-purple-500/10 rounded-xl mb-6 group-hover:bg-purple-500/20 transition-colors">
 											<svg width="32" height="32" viewBox="0 0 24 24" fill="none" className="text-purple-400">
