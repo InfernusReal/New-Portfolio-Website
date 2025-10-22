@@ -112,7 +112,7 @@ const Integration = () => {
 						className="space-y-16"
 					>
 						{/* First Project Row */}
-						<div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center justify-items-center">
+						<div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start justify-center max-w-4xl mx-auto">
 							{/* NASA Council of Lords */}
 							<motion.div
 								initial={{ opacity: 0, x: -40 }}
@@ -120,12 +120,12 @@ const Integration = () => {
 								transition={{ duration: 0.8, delay: 0.1 }}
 								viewport={{ once: true }}
 								whileHover={{ scale: 1.05, y: -5 }}
-								className="group cursor-pointer"
+								className="group cursor-pointer w-full"
 							>
 								<Link to="/projects/council-of-lords" className="block">
-									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300 h-[400px] flex flex-col">
+									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300 h-[450px] w-full flex flex-col">
 									{/* Project Image */}
-									<div className="relative h-48 overflow-hidden bg-gray-800">
+									<div className="relative h-48 w-full overflow-hidden bg-gray-800">
 										<img 
 											src="/nasa/Screenshot 2025-10-05 222808.png" 
 											alt="NASA Council of Lords AI System"
@@ -146,7 +146,7 @@ const Integration = () => {
 											Council of Lords
 										</h3>
 										<p className="text-gray-400 group-hover:text-gray-300 transition-colors">
-											Next-gen AI powerhouse conquering NASA's toughest space challenges
+											Advanced AI ensemble conquering NASA's toughest space challenges
 										</p>
 										
 										{/* Animated bar */}
@@ -168,12 +168,12 @@ const Integration = () => {
 								transition={{ duration: 0.8, delay: 0.3 }}
 								viewport={{ once: true }}
 								whileHover={{ scale: 1.05, y: -5 }}
-								className="group cursor-pointer"
+								className="group cursor-pointer w-full"
 							>
 								<Link to="/projects/prodigious-hub" className="block">
-									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300 h-[400px] flex flex-col">
+									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300 h-[450px] w-full flex flex-col">
 									{/* Project Image */}
-									<div className="relative h-48 overflow-hidden bg-gray-800">
+									<div className="relative h-48 w-full overflow-hidden bg-gray-800">
 										<img 
 											src="/The-Prodigious-Hub/Screenshot 2025-07-30 135752.png" 
 											alt="The Prodigious Hub Platform Showcase"
