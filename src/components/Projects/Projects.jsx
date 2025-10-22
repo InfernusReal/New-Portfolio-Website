@@ -47,28 +47,6 @@ const Projects = () => {
 				'Discord bot integration',
 				'AWS deployment with CI/CD'
 			]
-		},
-		{
-			id: 'bedding-com-pk',
-			title: 'Bedding.com.pk',
-			description: 'Enterprise e-commerce platform with advanced admin management, automated email system, EasyPaisa integration, and comprehensive financial tracking.',
-			technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'EasyPaisa API', 'Nodemailer'],
-			image: '/BnS-The Bedding Store/Overview/image.png',
-			category: 'E-commerce SaaS',
-			status: 'Production',
-			featured: true,
-			link: '/projects/bedding-com-pk',
-			year: '2025',
-			githubUrl: 'https://github.com/InfernusReal/BeddingStore-Frontend',
-			liveUrl: 'https://bedding.com.pk/',
-			highlights: [
-				'Complete e-commerce ecosystem',
-				'EasyPaisa payment integration',
-				'Automated email notifications',
-				'Advanced admin panel',
-				'Financial tracking system',
-				'Security monitoring'
-			]
 		}
 		// More projects will be added here
 	];

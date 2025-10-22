@@ -113,7 +113,7 @@ const Integration = () => {
 					>
 						{/* First Project Row */}
 						<div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center justify-items-center">
-							{/* E-commerce Store */}
+							{/* NASA Council of Lords */}
 							<motion.div
 								initial={{ opacity: 0, x: -40 }}
 								whileInView={{ opacity: 1, x: 0 }}
@@ -122,31 +122,37 @@ const Integration = () => {
 								whileHover={{ scale: 1.05, y: -5 }}
 								className="group cursor-pointer"
 							>
-								<Link to="/projects/bedding-com-pk" className="block">
+								<Link to="/projects/council-of-lords" className="block">
 									<div className="bg-gray-900/50 backdrop-blur border border-gray-800 rounded-2xl overflow-hidden group-hover:border-gray-600 transition-all duration-300">
 									{/* Project Image */}
 									<div className="relative h-48 overflow-hidden bg-gray-800">
 										<img 
-											src="/BnS-The Bedding Store/Overview/image.png" 
-											alt="BnS E-commerce Platform Showcase"
+											src="/nasa/Screenshot 2025-10-05 222808.png" 
+											alt="NASA Council of Lords AI System"
 											className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
 										/>
 										<div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent"></div>
+										{/* NASA Badge */}
+										<div className="absolute top-4 right-4 bg-blue-600/90 backdrop-blur text-white px-3 py-1 rounded-full text-xs font-semibold">
+											NASA Space Apps
+										</div>
 									</div>
 									
 									<div className="p-8">
 										{/* Icon */}
 										<div className="flex items-center justify-center w-16 h-16 bg-blue-500/10 rounded-xl mb-6 group-hover:bg-blue-500/20 transition-colors">
 											<svg width="32" height="32" viewBox="0 0 24 24" fill="none" className="text-blue-400">
-												<path d="M3 3H5L5.4 5M7 13H17L21 5H6M7 13L5.4 5M7 13L4.7 15.3C4.3 15.7 4.6 16.5 5.1 16.5H17M17 13V17C17 18.1 16.1 19 15 19H9C7.9 19 7 18.1 7 17V13M9 19C7.9 19 7 19.9 7 21S7.9 23 9 23 11 22.1 11 21 10.1 19 9 19ZM20 19C18.9 19 18 19.9 18 21S18.9 23 20 23 22 22.1 22 21 21.1 19 20 19Z" stroke="currentColor" strokeWidth="1.5"/>
+												<path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+												<path d="M2 17L12 22L22 17" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+												<path d="M2 12L12 17L22 12" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
 											</svg>
 										</div>
 										
 										<h3 className="text-2xl font-bold text-white mb-3 group-hover:text-blue-400 transition-colors">
-											BnS - The Bedding Store
+											Council of Lords
 										</h3>
 										<p className="text-gray-400 group-hover:text-gray-300 transition-colors">
-											Complete e-commerce platform with admin management, payment integration, and financial tracking
+											Revolutionary AI ensemble system for NASA exoplanet detection with 100% accuracy
 										</p>
 										
 										{/* Animated bar */}
