@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScrollForge - Revolutionary Causal Graph Programming</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+        }
+        
+        .poster-container {
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            border: 8px solid #000;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        
+        .accent-line {
+            height: 4px;
+            background: linear-gradient(90deg, #000 0%, #666 50%, #000 100%);
+        }
+        
+        .border-6 {
+            border-width: 4px;
+        }
+        
+        @media (max-width: 1400px) {
+            .poster-container {
+                transform: scale(0.8);
+                transform-origin: top center;
+            }
+        }
+        
+        @media (max-width: 1200px) {
+            .poster-container {
+                transform: scale(0.7);
+            }
+        }
+        
+        @media (max-width: 1000px) {
+            .poster-container {
+                transform: scale(0.6);
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-black">
+    <!-- 1920x1080 Poster Container -->
+    <div class="poster-container bg-white">
+        <!-- Header -->
+        <div class="text-center py-4 border-b-4 border-black">
+            <div class="flex items-center justify-center gap-4 mb-2">
+                <img src="./public/ScrollForge/0001-2730790464921712112.png" 
+                     alt="ScrollForge Logo" 
+                     class="w-16 h-16">
+                <h1 class="text-5xl font-black tracking-tight">SCROLLFORGE</h1>
+            </div>
+            <p class="text-lg font-medium text-gray-700">Revolutionary Causal Graph Programming Framework</p>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="flex-1 px-8 py-4 grid grid-cols-2 gap-8">
+            <!-- Left Column -->
+            <div class="space-y-4">
+                <!-- Tagline -->
+                <div class="text-center">
+                    <h2 class="text-3xl font-bold mb-2">THE FUTURE OF PROGRAMMING IS HERE</h2>
+                    <div class="accent-line w-32 mx-auto mb-3"></div>
+                    <p class="text-lg text-gray-600 leading-relaxed">
+                        Experience quantum-ready development with causal intelligence that adapts, learns, and scales infinitely.
+                    </p>
+                </div>
+                
+                <!-- Features Grid -->
+                <div class="space-y-3">
+                    <div class="text-center border-4 border-black p-4">
+                        <div class="text-xl font-black mb-1">SCROLLSCRIPT</div>
+                        <p class="text-sm text-gray-600">Domain-specific language for causal graph programming</p>
+                    </div>
+                    
+                    <div class="text-center border-4 border-black p-4 bg-black text-white">
+                        <div class="text-xl font-black mb-1">SCROLLWEAVE</div>
+                        <p class="text-sm text-gray-300">Advanced runtime engine with zero-latency processing</p>
+                    </div>
+                    
+                    <div class="text-center border-4 border-black p-4">
+                        <div class="text-xl font-black mb-1">SCROLLMESH</div>
+                        <p class="text-sm text-gray-600">Distributed networking for multi-node computation</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Column -->
+            <div class="space-y-4">
+                <!-- Stats -->
+                <div class="border-6 border-black p-4 bg-gray-50">
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div>
+                            <div class="text-3xl font-black">99.9%</div>
+                            <div class="text-sm font-medium text-gray-600">UPTIME</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-black">&lt;1MS</div>
+                            <div class="text-sm font-medium text-gray-600">LATENCY</div>
+                        </div>
+                        <div>
+                            <div class="text-3xl font-black">∞</div>
+                            <div class="text-sm font-medium text-gray-600">SCALE</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Code Sample -->
+                <div class="border-4 border-black p-4 bg-gray-100">
+                    <h3 class="text-lg font-bold mb-3 text-center">SAMPLE CODE</h3>
+                    <div class="bg-white border-2 border-gray-300 p-3 font-mono text-xs">
+                        <pre><span class="font-bold">scroll</span> quantum_processor {
+    <span class="text-gray-600">causal_input</span> data_stream : Observable&lt;QuantumState&gt;
+    
+    <span class="font-bold">weave</span> process_quantum(state) {
+        <span class="text-gray-600">entangle</span> state <span class="font-bold">with</span> quantum_registry
+        <span class="text-gray-600">measure</span> superposition → collapsed_state
+        <span class="text-gray-600">emit</span> collapsed_state
+    }
+    
+    <span class="text-gray-600">mesh</span> distribute <span class="font-bold">across</span> quantum_cluster
+}</pre>
+                    </div>
+                </div>
+                
+                <!-- Call to Action -->
+                <div class="text-center">
+                    <div class="inline-block border-6 border-black bg-black text-white px-6 py-4">
+                        <div class="text-2xl font-black">GET STARTED TODAY</div>
+                        <div class="text-sm font-medium">github.com/scrollforge</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Footer -->
+        <div class="border-t-4 border-black p-2 text-center bg-gray-50">
+            <p class="text-sm font-medium text-gray-600">
+                © 2025 SCROLLFORGE • QUANTUM COMPUTING READY • ENTERPRISE SCALE
+            </p>
+        </div>
+    </div>
+</body>
+</html>

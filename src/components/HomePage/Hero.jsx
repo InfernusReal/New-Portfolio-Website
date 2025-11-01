@@ -232,6 +232,34 @@ const Hero = () => {
 						</Link>
 					</motion.div>
 
+					{/* ScrollForge Banner */}
+					<motion.div
+						initial={{ opacity: 0, scale: 0.8 }}
+						animate={{ opacity: 1, scale: 1 }}
+						transition={{ delay: 0.8, duration: 0.8 }}
+						className="pt-2"
+					>
+						<Link 
+							to="/projects/scroll-forge"
+							className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-gray-600/20 to-white/20 backdrop-blur-sm border border-gray-400/30 rounded-full hover:border-gray-400/50 transition-all duration-300 group"
+						>
+							<div className="w-8 h-8 mr-3">
+								<svg viewBox="0 0 24 24" className="w-full h-full text-gray-300" fill="currentColor">
+									<path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+								</svg>
+							</div>
+							<div className="text-left">
+								<div className="text-gray-300 font-semibold text-sm">SCROLLFORGE - NEW PARADIGM</div>
+								<div className="text-gray-200/80 text-xs">Revolutionary Causal Graph Programming framework</div>
+							</div>
+							<div className="w-8 h-8 ml-3">
+								<svg viewBox="0 0 24 24" className="w-full h-full text-gray-300 transition-transform group-hover:translate-x-0.5" fill="none" stroke="currentColor">
+									<path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+								</svg>
+							</div>
+						</Link>
+					</motion.div>
+
 					{/* CTA */}
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}

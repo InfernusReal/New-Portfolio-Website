@@ -5,8 +5,31 @@ import ProjectCard from './ProjectCard';
 import ProjectsHero from './ProjectsHero';
 
 const Projects = () => {
-	// Project data including NASA Space Apps
+	// Project data including revolutionary ScrollForge framework
 	const projects = [
+		{
+			id: 'scroll-forge',
+			title: 'ScrollForge',
+			description: 'Revolutionary unified reactive framework implementing Causal Graph Programming - the world\'s first framework to unify state, style, and behavior management.',
+			technologies: ['Causal Graph Programming', 'JavaScript', 'TypeScript', 'Performance Optimization', 'NPM'],
+			image: '/ScrollForge/a/Screenshot 2025-11-02 030619.png',
+			category: 'Revolutionary Framework',
+			status: 'NPM Published',
+			featured: true,
+			priority: 1, // Top priority
+			link: '/projects/scroll-forge',
+			year: '2025',
+			githubUrl: 'https://github.com/InfernusReal/ScrollForge-Unified-Framework',
+			liveUrl: 'https://www.npmjs.com/package/scrollforge',
+			highlights: [
+				'🔥 REVOLUTIONARY FRAMEWORK - First Causal Graph Programming implementation',
+				'25,000+ lines of enterprise-grade code',
+				'10,000+ components @ 60fps performance',
+				'Three unified engines: ScrollScript, ScrollWeave, ScrollMesh',
+				'Published on NPM - Production ready v0.4.0',
+				'"Behavior is structure. Structure is style. Style is logic."'
+			]
+		},
 		{
 			id: 'council-of-lords',
 			title: 'Council of Lords',

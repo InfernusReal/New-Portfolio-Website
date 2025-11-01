@@ -1,6 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import HomePage from './components/HomePage/HomePage';
 import Projects from './components/Projects/Projects';
+import ScrollForgeDetails from './components/Projects/ScrollForge/ScrollForgeDetails';
 import ProdigiousHubDetails from './components/Projects/ProdigiousHub/ProdigiousHubDetails';
 import BeddingComPkDetails from './components/Projects/BeddingComPk/BeddingComPkDetails';
 import CouncilOfLordsDetails from './components/Projects/CouncilOfLords/CouncilOfLordsDetails';
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/scroll-forge" element={<ScrollForgeDetails />} />
         <Route path="/projects/council-of-lords" element={<CouncilOfLordsDetails />} />
         <Route path="/projects/prodigious-hub" element={<ProdigiousHubDetails />} />
         <Route path="/projects/bedding-com-pk" element={<BeddingComPkDetails />} />
